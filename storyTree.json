@@ -1,0 +1,25 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "message": "Hola? Hay alguien aqui?",
+      "options": [
+        { "title": "Si, quien eres?", "nextId": 2 },
+        { "title": "No pringao, muerete", "nextId": 3 }
+      ],
+      "time": 0
+    },
+    {
+      "id": 2,
+      "message": "No se quien soy... no me acuerdo de na ninio",
+      "options": [],
+      "time": 2
+    },
+    {
+      "id": 3,
+      "message": "Voy a buscarte y darte de ostias",
+      "options": [],
+      "time": 10
+    }
+  ]
+}
